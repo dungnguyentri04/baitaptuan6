@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cửa hàng Sách </title>
+    <link rel="stylesheet" href="../Bai2/bai2.css"
+</head>
+<body>
+    <header>
+        <h1> Cửa hàng Sách </h1>
+        <nav>
+            <a href="#home">Trang chủ</a>
+            <a href="#products">Sản phẩm</a>
+            <a href="#contact">Liên hệ</a>
+            <a href="#about">Giới thiệu</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- <section class="intro">
+            <h2>Chào mừng đến với Cửa hàng Sách </h2>
+        </section> -->
+
+        <!-- Phần tìm kiếm sản phẩm -->
+        <!-- <div class="search-container">
+            <input type="text" id="searchInput" placeholder="tim kiem">
+            <button id="searchBtn">Tìm</button>
+        </div> -->
+
+        <!-- Nút thêm sản phẩm -->
+        <!-- <div class="product-controls">
+            <button id="addProductBtn">Thêm sản phẩm</button>
+        </div> -->
+
+        <!-- Form thêm sản phẩm (ẩn mặc định) -->
+        <!-- <form id="addProductForm" class="hidden">
+            <h3>Thêm sản phẩm mới</h3>
+            <div class="form-group">
+                <label for="productName">Tên sản phẩm</label>
+                <input type="text" id="productName" name="productName" required placeholder="Nhập tên sản phẩm">
+            </div>
+
+            <div class="form-group">
+                <label for="productDescription">Mô tả sản phẩm </label>
+                <textarea id="productDescription" name="productDescription" required placeholder="Nhập mô tả "></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="productPrice">Giá sản phẩm </label>
+                <input type="number" id="productPrice" name="productPrice" required placeholder="Nhập giá sản phẩm" min="0">
+            </div>
+
+            <div class="form-group">
+                <label for="productImage">URL hình ảnh</label>
+                <input type="text" id="productImage" name="productImage" placeholder="....">
+            </div>
+
+            <button type="submit">Thêm sản phẩm</button>
+        </form> -->
+
+        <!-- Danh sách sản phẩm -->
+        <section class="products" id="products">
+            <article  class="product-item">
+                <img src="../Bai1/dacnhantam.jpeg" alt="Đắc Nhân Tâm">
+                <h3 class="product-name">Đắc Nhân Tâm</h3>
+                <p>Quyển sách này do Dale Carnegie viết và đã được xuất bản lần đầu vào năm 1936, nó đã được bán 15 triệu bản trên khắp thế giới</p>
+                <p class="price">10.000đ</p>
+            </article>
+
+            <article  class="product-item">
+                <img src="../Bai1/luocsuloainguoi.webp" alt="Lược sử loài người">
+                <h3 class="product-name">Lược sử loài người</h3>
+                <p>Cuốn sách nói bao quát về lịch sử tiến hóa của loài người từ thời cổ xưa trong thời kỳ đồ đá cho đến thế kỷ XXI, tập trung vào loài Homo sapiens</p>
+                <p class="price">11.000đ</p>
+            </article>
+
+            <article  class="product-item">
+                <img src="../Bai1/nhagiakim.jpeg" alt="Nhà Giả Kim">
+                <h3 class="product-name">Nhà Giả Kim</h3>
+                <p>Nha gia kim là cuốn sách nổi tiếng nhất của nhà văn Paulo Coelho. Tác phẩm đã được dịch ra 67 ngôn ngữ và bán ra tới 95 triệu bản</p>
+                <p class="price">12.000đ</p>
+            </article>
+        </section>
+
+        <section class="contact-form" id="contact">
+            <h2>Góp ý</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Ten</label>
+                    <input type="text" id="name" name="name" required placeholder="Nhap ten cua ban">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="hello@gmail.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="content">Noi dung</label>
+                    <textarea id="content" name="content" required placeholder="Nhap noi dung"></textarea>
+                </div>
+
+                <button type="submit">Gui</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p><strong>Cửa hàng Sách</strong></p>
+        <p>Địa chỉ: Hai Ba Trung, Ha Noi</p>
+        <p>Điện thoại: 123456789 | Email: cuahangsach@gmail.com</p>
+    </footer>
+
+    <script src="../Bai3/bai3.js">
+        
+    </script>
+</body>
+</html>
