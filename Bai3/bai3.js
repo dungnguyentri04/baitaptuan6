@@ -82,6 +82,14 @@
             const productPrice = document.getElementById('productPrice').value;
             const productImage = document.getElementById('productImage').value || 'https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=400&h=250&fit=crop';
 
+            
+            // Biến kiểm tra validation
+            let isValid = true;
+
+
+            
+            
+            
             // Tạo sản phẩm mới
             const newProduct = document.createElement('article');
             newProduct.className = 'product-item';
